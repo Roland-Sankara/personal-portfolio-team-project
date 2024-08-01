@@ -1,11 +1,17 @@
 h1 {
-    color: orangered;
-    background-color: gray;
+    color: white;
+    background-color: orangered;
     text-align: center;
     width: 50%;
     margin: auto;
+    font-size: 60px;
 }
 
 p{
     text-align: center;
+    font-size: 25px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
 }
