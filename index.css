@@ -1,3 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR STYLING BY MANSUR */
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 6rem;
+    height: 7rem;
+    background-color: #ffffff;
+}
+
+.logo img {
+    width: 80px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #006E7F;
+    padding: 1rem;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 5px;
+    background-color: #F8CB2F;
+    transition: .4s;
+}
+
+nav ul li a:hover::before {
+    width: 80%;
+}
+
+/* END OF MY STYLE MANSUR */
+
 h1 {
     color: white;
     background-color: orangered;
