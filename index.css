@@ -15,3 +15,20 @@ p{
 body{
     font-family: "Poppins", sans-serif;
 }
+
+
+#footer{
+    
+    margin: auto;
+    background-color: orangered;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+h2{
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
