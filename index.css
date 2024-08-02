@@ -78,3 +78,40 @@ p{
 body{
     font-family: "Poppins", sans-serif;
 }
+
+#About-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    gap: 15px;
+}
+
+img{
+    width: 25rem;
+    border-radius: 5px;
+}
+
+#About-section p{
+    font-size: 18px;
+}
+
+.btn{
+    display: block;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: yellowgreen;
+    color: white;
+    padding: .3rem;
+    border-radius: .5rem;
+    border: none;
+    width: 10%;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
