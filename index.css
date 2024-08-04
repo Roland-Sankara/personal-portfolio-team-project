@@ -15,3 +15,8 @@ p{
 body{
     font-family: "Poppins", sans-serif;
 }
+
+.back img {
+    width: 70vh;
+    margin-bottom: -70%;
+}
