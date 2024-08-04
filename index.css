@@ -95,3 +95,56 @@ h2{
     text-align: center;
     color: white;
 }
+
+/* projects css */
+.proj-img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.4); 
+    border-radius: 15px;
+}
+.projects{
+    display: flex;
+    border: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    
+}
+.proj-tile{
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: lightcyan;
+    padding: 10px ;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.4); 
+    border-radius: 15px;
+    transition: 1s, ease-in-out;
+    scroll-behavior: smooth;
+}
+
+.proj-tile:hover{
+    background-color: lightpink;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+    font-family: cursive;
+    color: darkblue;
+}
+
+.text{
+    font-size: 20px;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.read-more{
+    padding: 15px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
